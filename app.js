@@ -1,4 +1,4 @@
-const API_URL = "https://tu-backend.onrender.com/api";
+const API_URL = "https://conafood.onrender.com/api";
 
 async function cargarMenu() {
   const res = await fetch(API_URL + "/menu");
